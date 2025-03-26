@@ -1,4 +1,3 @@
-// components/Header.tsx
 import React from 'react';
 import styled from 'styled-components';
 import { Link, useMatchRoute } from '@tanstack/react-router';

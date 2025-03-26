@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
-import { fetchPhotoById } from "@/api/pexels"; // Assuming this function fetches a single photo by its ID
+import { fetchPhotoById } from "@/api/pexels";
 
 export const usePhoto = (photoId: number) => {
-    const [photo, setPhoto] = useState<null | any>(null);  // Replace `any` with the actual type for a single photo
+    const [photo, setPhoto] = useState<null | any>(null);
     const [isLoading, setIsLoading] = useState<boolean>(false);
     const [error, setError] = useState<Error | null>(null);
 
